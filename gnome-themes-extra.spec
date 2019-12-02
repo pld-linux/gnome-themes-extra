@@ -2,7 +2,7 @@ Summary:	Extra themes for GNOME environment
 Summary(pl.UTF-8):	Dodatkowe motywy dla środowiska GNOME
 Name:		gnome-themes-extra
 Version:	3.28
-Release:	1
+Release:	2
 License:	LGPL v2.1+
 Group:		Themes
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-themes-extra/3.28/%{name}-%{version}.tar.xz
@@ -23,7 +23,7 @@ BuildRequires:	rpmbuild(macros) >= 1.311
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
 Requires:	%{name}-HighContrast = %{version}-%{release}
-Requires:	%{name}-adwaita = %{version}-%{release}
+Requires:	%{name}-Adwaita = %{version}-%{release}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
