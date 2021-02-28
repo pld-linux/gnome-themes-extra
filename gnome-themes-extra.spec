@@ -39,9 +39,7 @@ Group:		Themes
 Requires:	adwaita-icon-theme
 Requires:	gtk+3 >= 3.10.0
 Obsoletes:	gnome-themes-standard < 3.27
-%if "%{_rpmversion}" >= "5"
 BuildArch:	noarch
-%endif
 
 %description Adwaita
 Adwaita and Adwaita-dark GTK+3 themes for use outside of GNOME.
@@ -60,9 +58,7 @@ Requires:	adwaita-icon-theme
 Obsoletes:	gnome-themes-HighContrast < 3.0-1
 Obsoletes:	gnome-themes-HighContrastLargePrint < 3.0-1
 Obsoletes:	gnome-themes-standard-accessibility < 3.27
-%if "%{_rpmversion}" >= "5"
 BuildArch:	noarch
-%endif
 
 %description HighContrast
 HighContrast accessibility theme for GNOME environment.
