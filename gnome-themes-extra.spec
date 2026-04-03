@@ -2,7 +2,7 @@ Summary:	Extra themes for GNOME environment
 Summary(pl.UTF-8):	Dodatkowe motywy dla środowiska GNOME
 Name:		gnome-themes-extra
 Version:	3.28
-Release:	3
+Release:	4
 License:	LGPL v2.1+
 Group:		Themes
 Source0:	https://download.gnome.org/sources/gnome-themes-extra/3.28/%{name}-%{version}.tar.xz
